@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Infinite 111movies Players</title>
+  <title>Infinite redacted Players</title>
   <style>
     :root{--gap:12px}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;margin:18px;color:#111;background:#121212}
@@ -21,11 +21,11 @@
   </style>
 </head>
 <body>
-  <h1>Infinite 111movies Players</h1>
+  <h1>Infinite redacted Players</h1>
 
   <div class="controls">
-    <textarea id="input" placeholder="Paste full URLs from 111movies (one per line)"></textarea>
-    <div class="hint">Example: https://111movies.com/tv/tt0121955/1/1</div>
+    <textarea id="input" placeholder="Paste full URLs from redacted (one per line)"></textarea>
+    <div class="hint">Example: https://redacted.com/tv/tt0121955/1/1</div>
   </div>
 
   <div class="row" style="margin-bottom:12px">
@@ -83,7 +83,7 @@
 
     document.getElementById('addBtn').addEventListener('click', ()=>{
       const text = input.value;
-      if(!text.trim()) return alert('Paste some 111movies URLs first.');
+      if(!text.trim()) return alert('Paste some redacted URLs first.');
       parseAndAdd(text);
       input.value = '';
     });
@@ -97,3 +97,4 @@
   </script>
 </body>
 </html>
+
