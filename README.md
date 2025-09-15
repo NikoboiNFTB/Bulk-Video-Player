@@ -1,6 +1,6 @@
 How to use:
-1. Download either index.html or index2.html. The difference is that index2.html has a delay on requests to spam-detection-proof the embedded sites.
-2. Open the .html in any browser. Firefox recommended (always).
+1. Download either index.html or index2.html. The difference is that index2.html has a short delay on requests to semi-kind-of-spam-detection-proof the embedded sites.
+2. Open the .html in any browser. Firefox recommended (obviously).
 3. Paste every link and press "Add players."
 4. Press the DownloadHelper extension, and download all of the embedded content.
 5. Profit.
