@@ -12,9 +12,11 @@ A simple web app that allows you to bulk add video players by pasting URLs from 
 
 ## How to Use
 
+(Install [Firefox](https://www.firefox.com/en-US/thanks/))
+
 1. Visit the [GitHub Pages Website](https://nikoboinftb.github.io/Bulk-Video-Player/).
 
-or
+or run locally:
 
 1. **Clone or Download the Repository**: 
    - Clone the repository:  
@@ -23,9 +25,7 @@ or
      ```
    - Or, [Download ZIP](https://github.com/NikoboiNFTB/Bulk-Video-Player/archive/refs/heads/main.zip) and extract it.
 
-2. **Open `index.html`** in your browser:
-   - Open the `index.html` file in any browser to start using the Bulk Video Player.
-   - For the Bulk Video Download functionality, use with the [Firefox Extension Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/).
+2. **Open `index.html`** in Firefox:
 
 Then
 
@@ -37,8 +37,8 @@ Then
    - Click the browser extension and select all to download.
 
 3. **Clear All Players**:
-   - Click **"Clear all"** to remove all video players from the page.
+   - Click **"Clear all"** to remove all video players from the page, then repeat from **step 1** or **quit**.
 
 ## License
 
-This project is licensed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.html).
+This project is licensed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
