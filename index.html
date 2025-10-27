@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bulk Video Player | Nikoboi</title>
+  <link rel="icon" type="image/png" href="clippy.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Licenced Under GPLv3</h1>
+
+    <div class="controls">
+      <textarea id="input" placeholder="Paste full URLs from 111Movies (one per line)"></textarea>
+      <div class="hint">Example: https://111movies.com/tv/tt0121955/27/5</div>
+    </div>
+
+    <div class="row" style="margin-bottom:12px">
+      <button id="addBtn">Add players</button>
+      <button id="clearBtn" class="secondary">Clear all</button>
+    </div>
+
+    <div class="meta">
+      <div><strong>Total players:</strong> <span id="count">0</span></div>
+    </div>
+
+    <div id="players" aria-live="polite"></div>
+
+    <div class="footer">
+      <img src="clippy.png" alt="Clippy" style="max-width: 200px; margin-top: 20px;">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
