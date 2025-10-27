@@ -19,7 +19,7 @@ or
 1. **Clone or Download the Repository**: 
    - Clone the repository:  
      ```bash
-     git clone <https://github.com/NikoboiNFTB/Bulk-Video-Player>
+     git clone https://github.com/NikoboiNFTB/Bulk-Video-Player
      ```
    - Or, [Download ZIP](https://github.com/NikoboiNFTB/Bulk-Video-Player/archive/refs/heads/main.zip) and extract it.
 
